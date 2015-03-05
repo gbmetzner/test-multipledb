@@ -11,7 +11,7 @@ val integration = "latest.integration"
 enablePlugins(GatlingPlugin)
 
 libraryDependencies ++= Seq(
-  "org.scalatest" %% "scalatest" % "2.2.4" % "test",
+  "org.scalatest" %% "scalatest" % integration % "test",
   "io.gatling" % "gatling-core" % integration % "test",
   "io.gatling.highcharts" % "gatling-charts-highcharts" % integration % "test",
   "io.gatling" % "gatling-test-framework" % integration % "test"
